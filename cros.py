@@ -37,35 +37,31 @@ def hover():
     mouse.press(Button.left)
     mouse.release(Button.left)
 
-    time.sleep(0.1)
+    time.sleep(0.04)
     mouse.position = (keysX, keysY)
     mouse.press(Button.left)
     mouse.release(Button.left)
-    time.sleep(0.1)
     keyboardP.press('e')
     keyboardP.release('e')
 
-    time.sleep(0.1)
+    time.sleep(0.04)
     mouse.position = (keysX, keysY+50)
     mouse.press(Button.left)
     mouse.release(Button.left)
-    time.sleep(0.1)
     keyboardP.press('q')
     keyboardP.release('q')
 
-    time.sleep(0.1)
+    time.sleep(0.04)
     mouse.position = (keysX, keysY+210)
     mouse.press(Button.left)
     mouse.release(Button.left)
-    time.sleep(0.1)
     keyboardP.press('w')
     keyboardP.release('w')
 
-    time.sleep(0.1)
+    time.sleep(0.04)
     mouse.position = (keysX, keysY+260)
     mouse.press(Button.left)
     mouse.release(Button.left)
-    time.sleep(0.1)
     keyboardP.press('s')
     keyboardP.release('s')
 
@@ -73,7 +69,7 @@ def hover():
     mouse.position = (okX, okY)
     mouse.press(Button.left)
     mouse.release(Button.left)
-    time.sleep(0.3)
+    time.sleep(0.2)
     keyboardP.press(Key.esc)
     keyboardP.release(Key.esc)
 
@@ -89,35 +85,31 @@ def milik():
     mouse.press(Button.left)
     mouse.release(Button.left)
 
-    time.sleep(0.1)
+    time.sleep(0.04)
     mouse.position = (keysX, keysY)
     mouse.press(Button.left)
     mouse.release(Button.left)
-    time.sleep(0.1)
     keyboardP.press('w')
     keyboardP.release('w')
 
-    time.sleep(0.1)
+    time.sleep(0.04)
     mouse.position = (keysX, keysY+50)
     mouse.press(Button.left)
     mouse.release(Button.left)
-    time.sleep(0.1)
     keyboardP.press('s')
     keyboardP.release('s')
 
-    time.sleep(0.1)
+    time.sleep(0.04)
     mouse.position = (keysX, keysY+210)
     mouse.press(Button.left)
     mouse.release(Button.left)
-    time.sleep(0.1)
     keyboardP.press('q')
     keyboardP.release('q')
 
-    time.sleep(0.1)
+    time.sleep(0.04)
     mouse.position = (keysX, keysY+260)
     mouse.press(Button.left)
     mouse.release(Button.left)
-    time.sleep(0.1)
     keyboardP.press('e')
     keyboardP.release('e')
 
@@ -125,12 +117,12 @@ def milik():
     mouse.position = (okX, okY)
     mouse.press(Button.left)
     mouse.release(Button.left)
-    time.sleep(0.3)
+    time.sleep(0.2)
     keyboardP.press(Key.esc)
     keyboardP.release(Key.esc)
 
 
 with keyboard.GlobalHotKeys({
-        '<shift>+,': hover,
-        '<shift>+.': milik}) as h:
+        '/': hover,
+        '*': milik}) as h:
     h.join()
