@@ -13,7 +13,7 @@
   - ok Y 
 4. save txt
 
-usage: Shift + < , Shift + >
+usage: / , *
 
 
 download link: https://drive.google.com/file/d/1g_JlWPpEiYzWY9KIYMym3Z4CgZosPLS1/view?usp=sharing
