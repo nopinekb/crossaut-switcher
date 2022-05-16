@@ -16,4 +16,4 @@
 usage: / , *
 
 
-download link: https://drive.google.com/file/d/1g_JlWPpEiYzWY9KIYMym3Z4CgZosPLS1/view?usp=sharing
+download link: shorturl.at/fDQ01
