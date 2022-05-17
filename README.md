@@ -1,4 +1,4 @@
-# crossaut-switcher
+# crossout-switcher
 
 1. download .exe
 2. make a txt file in .exe folder with name "coordinates" 
